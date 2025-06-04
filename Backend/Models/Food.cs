@@ -11,7 +11,7 @@ namespace Backend.Models
         public int FoodId { get; set; }
         public string Name { get; set; } = default!;
         public string Description { get; set; } = default!;
-        public int RestaurantId { get; set; }/
+        public int RestaurantId { get; set; }
 
         [ForeignKey("RestaurantId")]
 
